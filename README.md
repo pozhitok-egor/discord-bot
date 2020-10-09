@@ -17,15 +17,37 @@ This bot is designed to cheer you up, entertain and to moderate your discord ser
 - !meme - shows random meme
 - !search [__text__] - searchs image of specified __text__ in web
 
+## Functions
+- Games
+  - Rock-paper-scissors
+- Moderation
+  - Ban
+  - Kick
+  - Mute
+
+## Plans
+- Games
+  - 21
+- Moderation
+  - Caps
+  - Flood
+- Activities
+  - Searching and playing music
+  - Polls
+  - Roles to reactions
+- Ranking system
+
 ## Use cases
 - [ ] Administrator / moderator can ban with reason.
 - [X] Administrator / moderator can mute users for some time with reason.
-- [ ] Administrator / moderator can add 
+- [ ] Administrator / moderator can create role reacting messages with command.
 - [X] Channel members can get roles from message.
 - [ ] Channel members can search images.
 - [ ] Channel members can get random memes.
 - [X] Channel members can play Rock-papes-scissors with bot.
 - [X] Channel members can play Rock-papes-scissors with each other.
+- [ ] Channel members can play 21 with bot.
+- [ ] Channel members can play 21 with each other.
 - [ ] ~~Users can play music with bot from Url or search.~~
 
 ## Requirements
