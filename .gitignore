@@ -1,0 +1,2 @@
+# for config files that may have secret data
+*.ini
