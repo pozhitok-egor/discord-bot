@@ -10,7 +10,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-  member.guild.channels.get('channelID').send(`<:LGNDRY:730591882933174332> Рады тебя видеть, <@!${member.client.user.id}>`)
+  member.guild.channels.get(process.env.WELCOME_CHANNEL_ID).send(`<:LGNDRY:730591882933174332> Рады тебя видеть, <@!${member.client.user.id}>!`)
 });
 
 const prefix = "/";
